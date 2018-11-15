@@ -3,7 +3,6 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head> <meta charset="utf-8" /> <title>Twitty</title>
 <style>
-    #fb_pic{position:fixed;top:5px;left:170px;width:200px;height:41px;}
 body{background-image:url(https://i.imgur.com/If2UJYZ.png);width:1920px;height:100%;background-repeat:repeat-x;background-attachment: fixed;}
 
 #email-input{width:200px;height:40px;font-family:calibri;border-style:solid;border-radius:2px;border-width:0.5px;border-color:rgb(230,230,230);color:rgb(190,194,194);position:fixed;top:35px;left:910px;font-size:15px;;padding-left:10px;}
@@ -11,20 +10,25 @@ body{background-image:url(https://i.imgur.com/If2UJYZ.png);width:1920px;height:1
 #log-in{font-family:helvetica;font-weight:bold;border-style:solid;width:50px;height:30px;border-radius:35px;border-width:0.5px;border-color:rgb(29,161,242);color:black;background-color:rgb(255,255,255);position:fixed;top:20px;left:1350px;font-size:14px;color:rgb(29,161,242);padding-left:12px;padding-top:13px}
 #fbdes{font-family:calibri;color:rgb(170,184,194);position:fixed;top:55px;left:150px;font-size:20px}
 #people{position:fixed;top:-170px;left:-20px;width:1500px;height:1170px; } 
-#pass{font-family:calibri;color:rgb(170,184,194);position:fixed;top:55px;left:850px;font-size:15px}
+#pass{font-family:calibri;color:rgb(170,184,194);position:fixed;top:65px;left:1130px;font-size:15px}
 #cre-acc{border-style:none;background-repeat:no-repeat;width:1000px;height:1000px;background-color:rgb(255,255,255);font-family:calibri;color:rgb(55,55,55);position:fixed;top:0px;left:770px;}
+#birdy{width:50px;position:fixed;top:240px;left:960px;font-size:15px}
+#see{font-family:calibri;font-weight:bold;position:fixed;top:275px;left:960px;font-size:30px}
 </style>
 </head> <body>
+
 <img id="people" src="images/twitty_back.png">
 <input id="cre-acc"  type="submit" name="create"  value="">
-<a href="www.facebook.com"><img id="fb_pic" src="https://i.imgur.com/3wfjReO.png"></a>   
-<form action="/list.txt">						
+<form action="/list.txt">	
+			
 <p id="log-in">Log in </p>
 
 <p id="fbdes"><b>Facebuk is totally not a copy of Facebook<br> from market burger who steals the information <br> of <q>tatti</q> people of Earth.</b></p>
-<input id="email-input" type="email" name="e=mail" placeholder="Phone, Email or username">
+<input id="email-input" type="email" name="e=mail" placeholder="Phone, email or username">
 <p id="pass">Forgot Password?</p>
+<p id="see">See what's happening in<br> the world right now</p>
 <input id="pass-input" type="password" name="password" placeholder="Password">
+<img id="birdy" src="images/birdy.png">		
 </form>									
 </body>
 </html>
